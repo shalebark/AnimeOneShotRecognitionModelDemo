@@ -110,13 +110,10 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 
 Image1             |  Image2             |      Result
 :-------------------------:|:-------------------------:|:-------------------------:|
-<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg" height="400" /> | TRUE
-
-<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg" height="400" /> | TRUE
-
-<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png" height="400" /> | FALSE
-
-<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" height="400" /> | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg" width="300" /> | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg" width="300" /> | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png" width="300" /> | FALSE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" width="300" /> | TRUE
 
 # NOTES
 
