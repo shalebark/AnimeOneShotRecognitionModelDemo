@@ -53,23 +53,3 @@ if __name__ == '__main__':
     image2 = Image.open(args.image2).convert('RGB')
 
     print(compare_images(image1, image2))
-
-# arima1 = Image.open('images/arima1.jpg').convert('RGB')
-# arima2 = Image.open('images/arima2.jpg').convert('RGB')
-# print(compare_images(arima1, arima2))
-
-# kaori1 = Image.open('images/kaori1.jpg').convert('RGB')
-# kaori2 = Image.open('images/kaori2.png').convert('RGB')
-# print(compare_images(kaori1, kaori2))
-
-# ryouta1 = Image.open('images/ryouta1.png').convert('RGB')
-# ryouta2 = Image.open('images/ryouta2.jpg').convert('RGB')
-# print(compare_images(ryouta1, ryouta2))
-
-# tsubaki1 = Image.open('images/tsubaki1.jpg').convert('RGB')
-# tsubaki2 = Image.open('images/tsubaki2.jpg').convert('RGB')
-# print(compare_images(tsubaki1, tsubaki2))
-
-# print(compare_images(arima1, kaori1))
-# print(compare_images(ryouta1, tsubaki2))
-

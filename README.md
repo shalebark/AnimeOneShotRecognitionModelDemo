@@ -110,13 +110,13 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 
 Image1             |  Image2             |      Result
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg) | TRUE
+![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg =300) | TRUE
 
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg) | TRUE
+![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg =300) | TRUE
 
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png) | FALSE
+![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png =300) | FALSE
 
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png) | TRUE
+![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png =300) | TRUE
 
 # NOTES
 
