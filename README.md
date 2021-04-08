@@ -155,7 +155,7 @@ But if your concern is to just find a match, ideal encoding might be better.
 
 ## Size of Training Data
 
-Training data is only 2300 images, this can be much bigger.
+Training data is only 2300 images.
 
 ## Art Style and Demographics
 
