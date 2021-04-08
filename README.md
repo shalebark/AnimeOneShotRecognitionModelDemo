@@ -110,7 +110,7 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 
 Image1             |  Image2             |      Result
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg =300) | TRUE
+![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg =300x)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg =300x) | TRUE
 
 ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg =300) | TRUE
 
