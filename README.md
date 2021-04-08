@@ -113,7 +113,7 @@ Image1             |  Image2             |      Result
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg" width="300" /> | TRUE
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki2.jpg" width="300" /> | TRUE
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png" width="300" /> | FALSE
-<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki2.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" width="300" /> | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki2.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" width="300" /> | FALSE
 
 # NOTES
 
