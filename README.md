@@ -186,7 +186,7 @@ Training data is only 2300 images.
 
 ## Art Style and Demographics
 
-Most of the anime series comes from 2010s to 2020s era. It can benefit from anime series other decades.
+Most of the anime series comes from 2010s to 2020s era. It can benefit from anime series from other decades.
 
 Some series possess art styles that are quite distinct from the rest. One Piece, Jojo, Crayon Shinchan are popular series but no data for them is collected.
 
