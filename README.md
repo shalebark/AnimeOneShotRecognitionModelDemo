@@ -110,13 +110,13 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 
 Image1             |  Image2             |      Result
 :-------------------------:|:-------------------------:|:-------------------------:|
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg =300) | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg" height="400" /> | TRUE
 
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg =300) | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg" height="400" /> | TRUE
 
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png =300) | FALSE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png" height="400" /> | FALSE
 
-![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg =300)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png =300) | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg" height="400" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png" height="400" /> | TRUE
 
 # NOTES
 
