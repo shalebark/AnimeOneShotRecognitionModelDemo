@@ -4,7 +4,7 @@
 
 This is a demo for one shot face encoding model for anime characters.
 
-The model is meant to be use dlib's python library. dlib[http://dlib.net/]
+The model is meant to be used with dlib's python library. dlib[http://dlib.net/]
 
 Using dlib's face encoding api, you can use this model to generate face encodings.
 
@@ -13,37 +13,51 @@ Using dlib's face encoding api, you can use this model to generate face encoding
 The model is trained using 2400 images pulled from various anime series. Only images that are near portrait were selected and used.
 
 Testing data I used 1600 images pulled from different series. Only images that are near portrait were selected.
+
 Results for comparing each class of images to every class of images (48 classes in total)
+
 Accuracies: 0.945469
+
 Precisions: 0.366326
+
 Recalls: 0.969469
+
 Specificities: 0.943694
+
 F1 Score: 0.531731
 
+
 Results for comparing each image to the best of each class (again 48 classses in total).
+
 Accuracy: 94%
+
 
 ## Data Details
 
 The training data comes from scanning entire episodes of anime series.
 
 Faces from the series were extracted, aligned, so that the eyes are horizontal to each other, and zoomed in so the face is near centered.
+
 See Aligner_Cleaned.py as an example.
+
 Those faces were then selected with the criteria of being nearly portrait images (meaning the character was not facing heavly to the side),
 and sorted into it's own class.
 
+
 The test data follows the same methodology but on a different set of anime series.
+
 
 There is another set of data that has each character sorted in it's own class, but does not adhere to portrait rules. That's labeled as "wild_data".
 
-Link to Training Data:
-Link to Test Data:
+
+Link to Training Data: https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data
+Link to Test Data: https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data
 Link to Wild Data:
 
 # Usage
 
-Download the model.
-Link here:
+Download the model. Link[https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/models/facial_portrait_only_3_29_21.dat]
+
 
 ```
 encoder = dlib.face_recognition_model_v1('models/facial_portrait_only_3_29_21.dat')
@@ -97,8 +111,11 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 Image1             |  Image2             |      Result
 :-------------------------:|:-------------------------:|:-------------------------:|
 ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg) | TRUE
+
 ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubak2.jpg) | TRUE
+
 ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/kaori2.png) | FALSE
+
 ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki.jpg)  |  ![](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/ryouta1.png) | TRUE
 
 # NOTES
