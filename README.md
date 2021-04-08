@@ -31,6 +31,7 @@ Results for comparing each image to the best of each class (again 48 classses in
 
 Accuracy: 94%
 
+For details, I've included an html export of the jupyter notebook here[https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/blob/master/metrics/Metric%20Data%20Analysis.html].
 
 ## Data Details
 
@@ -107,6 +108,18 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 ```
 
 # Results
+
+Images from test series
+
+Image1             |  Image2             |      Result
+:-------------------------:|:-------------------------:|:-------------------------:|
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/chino1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/chino2.jpg" width="300" /> | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/cocoa1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/cocoa2.jpg" width="300" /> | TRUE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/chino1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/cocoa1.jpg" width="300" /> | FALSE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/rin1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/nadeshiko1.jpg" width="300" /> | FALSE
+<img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/nadeshiko2.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/nadeshiko1.jpg" width="300" /> | TRUE
+
+Images I pulled from google
 
 Image1             |  Image2             |      Result
 :-------------------------:|:-------------------------:|:-------------------------:|
