@@ -54,24 +54,49 @@ I've uploaded the training, testing data to kaggle.
 
 It can be found [here](https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data)
 
-# Usage
+# Using the Model
 
-Download the model. [Link](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/models/facial_portrait_only_3_29_21.dat)
+## Download the Model
 
+I put the model on the repo.
+Here's the link: [Link](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/models/facial_portrait_only_3_29_21.dat)
+
+## Example with dlib
 
 ```
-encoder = dlib.face_recognition_model_v1('models/facial_portrait_only_3_29_21.dat')
-threshold = 0.6 # a smaller number for more similar faces, a higher for more range of accepted faces
+import dlib
 
+# path to model
+model_path = 'models/facial_portrait_only_3_29_21.dat'
+# a smaller number for more similar faces, a higher for more range of accepted faces, default is 0.6
+threshold = 0.6
+
+# path to images
+image1path = 'someimage1.jpg'
+image2path = 'someimage2.jpg'
+
+# build face recognition model
+encoder = dlib.face_recognition_model_v1(model_path)
+
+# RGB images only
+image1 = Image.open(image1path).convert('RGB')
+image2 = Image.open(image2path).convert('RGB')
+
+# compute encodes for each image
 encode1 = np.array(encoder.compute_face_descriptor(extract_face(image1), 1))
 encode2 = np.array(encoder.compute_face_descriptor(extract_face(image2), 1))
-return np.linalg.norm([encode1] - encode2, axis=1)[0] <= threshold
+
+# if it's beneath the threshold, it's a match
+if np.linalg.norm([encode1] - encode2, axis=1)[0] <= threshold:
+    print('Match')
+else:
+    print('Don't Match')
 
 ```
 
-# Installation
+# Demo
 
-## Ubuntu
+## Installing on Ubuntu
 
 ```
 apt-get install -y build-essential cmake python3-opencv
