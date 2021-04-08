@@ -65,6 +65,8 @@ Here's the link: [Link](https://github.com/shalebark/AnimeOneShotRecognitionMode
 
 ```
 import dlib
+from PIL import Image
+import numpy as np
 
 # path to model
 model_path = 'models/facial_portrait_only_3_29_21.dat'
