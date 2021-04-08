@@ -131,7 +131,7 @@ Image1             |  Image2             |      DOES IT MATCH?
 
 ## Usage Tips
 
-For this demo, I used the animeface python library, but that's mostly for demo purposes.
+For this demo, I used the animeface python library, but that's to keep the setup for the demo simple.
 
 In actual data gathering, I use the following the following face detector: [https://github.com/qhgz2013/anime-face-detector](https://github.com/qhgz2013/anime-face-detector])
 I then use another repository for landmarks: [https://github.com/kanosawa/anime_face_landmark_detection](https://github.com/kanosawa/anime_face_landmark_detection])
