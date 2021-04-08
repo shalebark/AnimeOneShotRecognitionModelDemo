@@ -50,10 +50,7 @@ The test data follows the same methodology but on a different set of anime serie
 
 There is another set of data that has each character sorted in it's own class, but does not adhere to portrait rules. That's labeled as "wild_data".
 
-
-Link to Training Data: https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data
-Link to Test Data: https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data
-Link to Wild Data:
+I've uploaded the training, testing data to kaggle. It can be found here[https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data]
 
 # Usage
 
@@ -109,9 +106,9 @@ docker run aosdemo  /code/images/arima1.jpg /code/images/arima2.jpg
 
 # Results
 
-Images from test series
+Sample frames from training / testing series.
 
-Image1             |  Image2             |      Result
+Image1             |  Image2             |      DOES IT MATCH?
 :-------------------------:|:-------------------------:|:-------------------------:|
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/chino1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/chino2.jpg" width="300" /> | TRUE
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/cocoa1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/cocoa2.jpg" width="300" /> | TRUE
@@ -119,9 +116,9 @@ Image1             |  Image2             |      Result
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/rin1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/nadeshiko1.jpg" width="300" /> | FALSE
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/nadeshiko2.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/nadeshiko1.jpg" width="300" /> | TRUE
 
-Images I pulled from google
+Random images of Your Lie in April characters. (not part of training/testing set)
 
-Image1             |  Image2             |      Result
+Image1             |  Image2             |      DOES IT MATCH?
 :-------------------------:|:-------------------------:|:-------------------------:|
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/arima2.jpg" width="300" /> | TRUE
 <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki1.jpg" width="300" />  |  <img src="https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/images/tsubaki2.jpg" width="300" /> | TRUE
