@@ -4,7 +4,7 @@
 
 This is a demo for one shot face encoding model for anime characters.
 
-The model is meant to be used with dlib's python library. dlib[http://dlib.net/]
+The model is meant to be used with dlib's python library. [dlib](http://dlib.net/)
 
 Using dlib's face encoding api, you can use this model to generate face encodings.
 
@@ -31,7 +31,7 @@ Results for comparing each image to the best of each class (again 48 classses in
 
 Accuracy: 94%
 
-For details, I've included an html export of the jupyter notebook here[https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/blob/master/metrics/Metric%20Data%20Analysis.html].
+For details, I've included an html export of the jupyter notebook [here](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/blob/master/metrics/Metric%20Data%20Analysis.html])
 
 ## Data Details
 
@@ -50,11 +50,13 @@ The test data follows the same methodology but on a different set of anime serie
 
 There is another set of data that has each character sorted in it's own class, but does not adhere to portrait rules. That's labeled as "wild_data".
 
-I've uploaded the training, testing data to kaggle. It can be found here[https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data]
+I've uploaded the training, testing data to kaggle.
+
+It can be found [here](https://www.kaggle.com/andock/anime-face-from-video-frames-portrait-data)
 
 # Usage
 
-Download the model. Link[https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/models/facial_portrait_only_3_29_21.dat]
+Download the model. [Link](https://github.com/shalebark/AnimeOneShotRecognitionModelDemo/raw/master/models/facial_portrait_only_3_29_21.dat)
 
 
 ```
@@ -131,8 +133,8 @@ Image1             |  Image2             |      DOES IT MATCH?
 
 For this demo, I used the animeface python library, but that's mostly for demo purposes.
 
-In actual data gathering, I use the following the following face detector: https://github.com/qhgz2013/anime-face-detector[https://github.com/qhgz2013/anime-face-detector].
-I then use another repository for landmarks: https://github.com/kanosawa/anime_face_landmark_detection[https://github.com/kanosawa/anime_face_landmark_detection].
+In actual data gathering, I use the following the following face detector: [https://github.com/qhgz2013/anime-face-detector](https://github.com/qhgz2013/anime-face-detector])
+I then use another repository for landmarks: [https://github.com/kanosawa/anime_face_landmark_detection](https://github.com/kanosawa/anime_face_landmark_detection])
 
 I found the animeface library to have difficulties detecting faces that are too big, too small, wears glasses, or tilted a certain way, and isn't quite suited for face detection from videos.
 
